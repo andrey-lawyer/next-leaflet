@@ -10,15 +10,17 @@
 
 ## Introduction
 
-This project is a Node.js server designed to synchronize data with a Google Sheet. The choice of technologies and architecture was driven by several considerations:
+This project is a Next.js application designed to display a map with markers and a search functionality. The choice of technologies and architecture was driven by several considerations:
 
-- **Express.js Framework:** Chosen for its simplicity, flexibility, and widely-adopted nature, Express.js is well-suited for building RESTful APIs. It allows us to define routes, middleware, and controllers with ease.
+- **Next.js Framework:** Chosen for its simplicity, flexibility, and efficient development of React applications. It provides server-side rendering and a great developer experience.
 
-- **Google-spreadsheet Library:** Instead of using the Google Sheets API directly, we opted for the `google-spreadsheet` library. This library simplifies interactions with Google Sheets, making it more convenient for our use case.
+- **Leaflet Library:** Used for interactive maps, Leaflet is a lightweight library that provides an elegant and simple way to display maps on the web. It integrates seamlessly with React through the react-leaflet package.
 
-- **TypeORM with PostgreSQL:** TypeORM provides a robust Object-Relational Mapping (ORM) solution for TypeScript and JavaScript. PostgreSQL, a powerful open-source database, was chosen for its reliability and support for complex queries.
+- **GeoJSON:** GeoJSON is utilized for representing geographic data. It allows for the encoding of various geographic data structures and is compatible with Leaflet.
 
-- **TypeScript:** The decision to use TypeScript brings static typing to our codebase, enhancing code quality and providing better developer tooling.
+- **Formik and Yup:** Formik is employed for handling forms, while Yup is used for form validation. This combination streamlines the form development process.
+
+- **Axios:** Axios is a popular HTTP client used for making requests to external APIs. It is employed for fetching data in this project.
 
 ## Backend
 
