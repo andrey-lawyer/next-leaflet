@@ -59,6 +59,6 @@ The project is structured as follows:
 
 ## Deployment
 
-The project is currently deployed on [Netlify](https://lively-croquembouche-f9b6f3.netlify.app). The database is hosted using the capabilities of [Supabase](https://supabase.com).
+The project is currently deployed on [Netlify](https://lively-croquembouche-f9b6f3.netlify.app). .
 
 Feel free to check the live deployment and interact with the application.
