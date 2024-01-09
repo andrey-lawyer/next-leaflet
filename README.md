@@ -24,7 +24,7 @@ This project is a Next.js application designed to display a map with markers and
 
 ## Backend
 
-- **Nest.js:** A powerful and modular Node.js framework used for building the custom backend. Nest.js provides a structured and efficient way to create scalable and maintainable server-side applications.
+- **Nest.js:** [project files](https://github.com/andrey-lawyer/nest-backend-accommodation) A powerful and modular Node.js framework used for building the custom backend. Nest.js provides a structured and efficient way to create scalable and maintainable server-side applications.
 
 - **TypeORM with PostgreSQL:** The backend uses TypeORM with PostgreSQL for database interactions, ensuring a reliable and performant storage solution.
 
