@@ -1,4 +1,4 @@
-import { IStatus } from './types';
+import { IStatus } from "@/types/typeProps";
 
 export const duration = 300;
 
